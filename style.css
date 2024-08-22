@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Hina+Mincho&family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Hina+Mincho&family=Hurricane&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Hina+Mincho&family=Hurricane&family=Mansalva&family=Rouge+Script&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(39, 22, 4);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 20px;
+    color: aliceblue;
+    font-family: "Delicious Handrawn", cursive;
+
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(102, 101, 101);
+    font-family:"Rouge Script", cursive,bold;
+}
+p{
+font-size: 20px;
+color: rgb(33, 34, 34);
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0 ;
+    background-color: rgb(252, 217, 154);
+    
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.caja img {
+    border-radius: 50%;
+}
+
+.caja p{
+font-size: 15px;
+font-family: "Mansalva", sans-serif;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 70px;
+    color: rgb(238, 169, 79);
+    font-family:"Hurricane", cursive;
+}
+
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Hina Mincho", serif;
+    color: rgb(172, 145, 109);
+  
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+#footer{
+    flex-direction: column;
+}
